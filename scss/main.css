@@ -152,7 +152,7 @@
     position: absolute;
     z-index: 3;
     left: -150px;
-    bottom: -55px; }
+    bottom: -15px; }
   .help-mob {
     display: none; }
   .help__content {
@@ -489,12 +489,13 @@
     font-size: 60px;
     line-height: 120%;
     color: #000000;
-    margin-left: 50px;
+    margin-left: 53px;
     display: block; }
     .calculation__cost span {
       font-size: 36px; }
     .calculation__cost--two {
-      color: #FA002C; }
+      color: #FA002C;
+      margin-left: 70px; }
 
 .advantages {
   background: #ffffff;
@@ -704,13 +705,13 @@
   padding: 60px 0; }
   .experts__inner {
     padding: 65px 65px 80px 65px;
-    position: relative; }
-  .experts-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+    position: relative;
+    background-image: url("../img/experts-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 7px solid #E7E7E7;
+    border-radius: 36px; }
   .experts__content {
     position: relative;
     z-index: 2; }
@@ -1049,6 +1050,8 @@
       padding: 30px 20px; }
       .calculation__item--two {
         padding: 30px 20px; }
+        .calculation__item--two:after {
+          background: radial-gradient(99.46% 139.68% at 15.4% 16.97%, #5E6B9A 0%, rgba(94, 107, 154, 0) 200%); }
       .calculation__item-title {
         font-size: 20px; }
         .calculation__item-title--two {

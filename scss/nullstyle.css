@@ -30,7 +30,8 @@ label {
 button,
 input,
 textarea {
-  outline: none !important; }
+  outline: none !important;
+  font-family: 'Montserrat'; }
 
 button {
   border: none;
