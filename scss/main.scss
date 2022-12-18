@@ -166,14 +166,21 @@
 }
 .help {
   background: #FFFFFF;
-  padding: 60px 0 180px;
+  padding: 60px 0 100px;
   &__inner {
     position: relative;
-    background-image: url("../img/help-bg.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 60px 60px 100px;
+    //background-image: url("../img/help-bg.png");
+    //background-repeat: no-repeat;
+    //background-position: center;
+    //background-size: cover;
+    padding: 60px 60px 130px;
+  }
+  &-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
   &-car {
     position: absolute;
@@ -1278,6 +1285,9 @@
     }
   }
   .help {
+    &-bg {
+      display: none;
+    }
     &--two {
       padding: 60px 0 30px;
     }
